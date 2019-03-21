@@ -1,0 +1,76 @@
+@charset "utf-8";
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #333333;
+    font-family: "微软雅黑", "宋体";
+}
+.main{
+    margin: 0 auto;
+    max-width: 10rem;
+    background-color: #544fad;
+}
+.main .content-01{
+    height: 8.53rem;
+    background: url("../../images/page-01/bg_01.jpg") top center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.main .content-02{
+    height: 5.2rem;
+    background: url("../../images/page-01/bg_02.jpg") top center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.main .content-03{
+    height: 7.07rem;
+    background: url("../../images/page-01/bg_03.jpg") top center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.main .content-04{
+    height: 12rem;
+    padding-top: 0.26rem;
+    background-color: #544fad;
+}
+.main .content-04 .box-inner{
+    margin: 0 auto;
+    width: 9.61rem;
+    height: 11.43rem;
+    background: url("../../images/page-01/bg_04.png") top center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.main .content-04 .box-inner .swipslider{
+    width:6rem;
+    height: 9.5rem;
+    background-color: #0b093a;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    border-radius: 0.2rem;
+    position: relative;
+    top: 1.1rem;
+    left: 0.1rem;
+    overflow: hidden;
+}
+.main .content-04 .box-inner .swipslider ul li{
+    text-align: center;
+}
+.main .content-04 .box-inner .swipslider ul li img{
+    width: 110%;
+}
+.main .content-05{
+    height: 12.53rem;
+    background: url("../../images/page-01/bg_05.jpg") top center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.main .content-06{
+    height: 10.67rem;
+    background: url("../../images/page-01/bg_06.jpg") top center no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}

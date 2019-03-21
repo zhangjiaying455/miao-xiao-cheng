@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>妙小程-少儿编程专业在线教育平台</title>
+    <script src="js/flexible-css.min.js"></script>
+    <script src="js/flexible.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swipeslider.css">
+    <link rel="stylesheet" href="css/pages/page-01.css">
+</head>
+<body>
+    <div class="main">
+        <div class="content-01"></div>
+        <div class="content-02"></div>
+        <div class="content-03"></div>
+        <div class="content-04">
+            <div class="box-inner">
+                <div class="swipslider" id="img-list">
+                    <ul class="sw-slides">
+                        <li class="sw-slide">
+                            <img src="images/page-01/gif_01.gif">
+                        </li>
+                        <li class="sw-slide">
+                            <img src="images/page-01/gif_02.gif">
+                        </li>
+                        <li class="sw-slide">
+                            <img src="images/page-01/gif_03.gif">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-05"></div>
+        <div class="content-06"></div>
+    </div>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/swipeslider.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //轮播图初始化
+            $("#img-list").swipeslider({
+                prevNextButtons: false,
+                autoPlayTimeout:5000,
+                sliderHeight: '0'
+            });
+        })
+    </script>
+    <!--<script type="text/javascript" src="js/pages/page-01.js"></script>-->
+</body>
+</html>
+
