@@ -11,12 +11,6 @@
         sign=getRequestByName("sign"),
         startTime = new Date().getTime();
 
-    /*console.log("company:"+company);
-    console.log("userid:"+userId);
-    console.log("user-agent:"+ua);
-    console.log("ip:"+ip);
-    console.log("url："+url);
-    console.log("sign:"+sign);*/
 
     //保存页面初始化信息 http://mm.jnrise.cn/loading/server/enter
     $.ajax({
@@ -34,7 +28,7 @@
         },
         dataType: 'json',
         success: function(data){
-            //console.log(data);
+            // console.log(data);
         },
         error: function(xhr){
             console.log(xhr);
@@ -64,7 +58,7 @@
                 },
                 dataType: 'json',
                 success: function(data){
-                    //console.log(data);
+                    // console.log(data);
                 },
                 error: function(xhr){
                     console.log(xhr);

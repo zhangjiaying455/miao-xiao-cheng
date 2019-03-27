@@ -14,19 +14,19 @@ body,html{
     background-color: #544fad;
 }
 .main .content-01{
-    height: 8.53rem;
+    height: 8.52rem;
     background: url("../../images/page-01/bg_01.jpg") top center no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
 .main .content-02{
-    height: 5.2rem;
+    height: 7.65rem;
     background: url("../../images/page-01/bg_02.jpg") top center no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
 .main .content-03{
-    height: 7.07rem;
+    height: 8.98rem;
     background: url("../../images/page-01/bg_03.jpg") top center no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
@@ -73,4 +73,10 @@ body,html{
     background: url("../../images/page-01/bg_06.jpg") top center no-repeat;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
+}
+.slide02{
+    height: 1.33rem;
+}
+.slide02 img{
+    height: 100%;
 }
