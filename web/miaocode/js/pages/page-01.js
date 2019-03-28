@@ -3,7 +3,7 @@
     $("html,body").animate({"scrollTop": "0"},1);
 
     //基本信息
-    var company='miaoxiaocheng-test',
+    var company='miaoxiaocheng',
         userId=getUUID(),
         ua=navigator.userAgent,
         ip=returnCitySN["cip"],
